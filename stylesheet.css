@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2vw;
+    letter-spacing: 2px;
+    /*background-color: rgb(238, 238, 238);*/
+    background-color: transparent;
+}
+
+h1 {
+    font-size: min(4vw, 40px);
+}
+
+h2 {
+    font-size: min(3.5vw, 35px);
+}
+
+h3, option, select {
+    font-size: min(3vw, 30px);
+}
+
+p, li, i, a {
+    font-size: min(2.2vw, 22px);
+}
+
+b, sup {
+    font-size: inherit;
+}
+
+.pp {
+    font-size: min(2.7vw, 27px);
+}
+
+#bottombanner {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 1%;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0%;
+}
+
+#bottombanner p {
+    color: #ffffff;
+    margin: 1% 1% 0% 1%;
+    display: inline-flex;
+}
+
+#bottombanner a {
+    color: #ffffff;
+}
+
+#banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+#bannerimage {
+    max-width: 90%;
+    max-height: 12.5vw;
+    height: auto;
+    transition: max-height 0.5s;
+}
+
+#bbuttoncontainer {
+    position: absolute;
+    width: 100%;
+    top: 11.5vw;
+    background-color: transparent;
+    transition: top 0.5s;
+}
+
+#langcontainer {
+    position: absolute;
+    background-color: white;
+    top: 11.5vw;
+    transition: top 0.5s;
+}
+
+.bannerbutton {
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    padding: min(1%, 8px) min(3%, 25px);
+    margin: 2% 1%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: font-size 0.5s;
+    font-size: 1.8vw;
+}
+
+.fakebutton {
+    padding: min(1%, 8px) min(3%, 25px);
+    margin: 2% 1%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.disabledbb {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+#content {
+    position: absolute;
+    top: min(12vw, 300px);
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    transition: top 0.5s;
+}
+
+.contentdiv {
+    text-align: left;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2%;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0 16px;
+    resize: vertical;
+}
+
+textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #5a5a5a;
+}
+
+#teamimage {
+    width: 35vw;
+    height: 30vw;
+    margin: 2% 4% 2% 2%;
+    max-width: 437.5px;
+    max-height: 375px;
+    min-width: 192px;
+    min-height: 142px;
+    border-radius: 4%;
+}
+
+.contentimage {
+    width: 26vw;
+    height: 19.5vw;
+    margin: 2% 2% 2% 2%;
+    min-width: 120px;
+    min-height: 90px;
+    border-radius: 4%;
+}
+
+.atch-img {
+    width: 20vw;
+    height: 15vw;
+    margin: 2% 2% 2vw 2%;
+    border-radius: 4%;
+}
